@@ -1,0 +1,50 @@
+action: GLOB, msg: packaging
+cwd: C:\Users\Anak\PycharmProjects\Reusable-Reproducible-Python-Documentation-Packaging-Continuous-Integration-and-Beyond
+cmd: 'c:\users\anak\anaconda3\envs\py36\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
+running sdist
+running egg_info
+writing my_project.egg-info\PKG-INFO
+writing dependency_links to my_project.egg-info\dependency_links.txt
+writing requirements to my_project.egg-info\requires.txt
+writing top-level names to my_project.egg-info\top_level.txt
+c:\users\anak\anaconda3\envs\py36\lib\site-packages\setuptools\dist.py:454: UserWarning: Normalizing '0.0.1-dev' to '0.0.1.dev0'
+  warnings.warn(tmpl.format(**locals()))
+warning: Failed to find the configured license file 'COPYING'
+reading manifest file 'my_project.egg-info\SOURCES.txt'
+writing manifest file 'my_project.egg-info\SOURCES.txt'
+running check
+creating my_project-0.0.1.dev0
+creating my_project-0.0.1.dev0\my_project.egg-info
+creating my_project-0.0.1.dev0\tests
+copying files to my_project-0.0.1.dev0...
+copying README.rst -> my_project-0.0.1.dev0
+copying setup.cfg -> my_project-0.0.1.dev0
+copying setup.py -> my_project-0.0.1.dev0
+copying my_project.egg-info\PKG-INFO -> my_project-0.0.1.dev0\my_project.egg-info
+copying my_project.egg-info\SOURCES.txt -> my_project-0.0.1.dev0\my_project.egg-info
+copying my_project.egg-info\dependency_links.txt -> my_project-0.0.1.dev0\my_project.egg-info
+copying my_project.egg-info\not-zip-safe -> my_project-0.0.1.dev0\my_project.egg-info
+copying my_project.egg-info\requires.txt -> my_project-0.0.1.dev0\my_project.egg-info
+copying my_project.egg-info\top_level.txt -> my_project-0.0.1.dev0\my_project.egg-info
+copying tests\__init__.py -> my_project-0.0.1.dev0\tests
+copying tests\constants.py -> my_project-0.0.1.dev0\tests
+copying tests\test_utils.py -> my_project-0.0.1.dev0\tests
+Writing my_project-0.0.1.dev0\setup.cfg
+creating '.tox\dist\my_project-0.0.1.dev0.zip' and adding 'my_project-0.0.1.dev0' to it
+adding 'my_project-0.0.1.dev0'
+adding 'my_project-0.0.1.dev0\my_project.egg-info'
+adding 'my_project-0.0.1.dev0\tests'
+adding 'my_project-0.0.1.dev0\PKG-INFO'
+adding 'my_project-0.0.1.dev0\README.rst'
+adding 'my_project-0.0.1.dev0\setup.cfg'
+adding 'my_project-0.0.1.dev0\setup.py'
+adding 'my_project-0.0.1.dev0\my_project.egg-info\dependency_links.txt'
+adding 'my_project-0.0.1.dev0\my_project.egg-info\not-zip-safe'
+adding 'my_project-0.0.1.dev0\my_project.egg-info\PKG-INFO'
+adding 'my_project-0.0.1.dev0\my_project.egg-info\requires.txt'
+adding 'my_project-0.0.1.dev0\my_project.egg-info\SOURCES.txt'
+adding 'my_project-0.0.1.dev0\my_project.egg-info\top_level.txt'
+adding 'my_project-0.0.1.dev0\tests\constants.py'
+adding 'my_project-0.0.1.dev0\tests\test_utils.py'
+adding 'my_project-0.0.1.dev0\tests\__init__.py'
+removing 'my_project-0.0.1.dev0' (and everything under it)

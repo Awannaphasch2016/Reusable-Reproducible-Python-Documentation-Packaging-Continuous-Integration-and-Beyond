@@ -1,0 +1,14 @@
+
+[ci]
+codacy-coverage
+codecov
+
+[dev]
+sphinx
+sphinx-rtd-theme
+sphinx-autodoc-typehints
+sphinx-click
+
+[testing]
+pytest
+coverage
